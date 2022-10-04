@@ -1,0 +1,17 @@
+<h1><span id="{name}"><b>{name}</b></span></h1>
+<dl>
+<dt>NAME<dd><b>{name}</b>
+<dt>SYNOPSIS<dd><tt>{synopsis}</tt>
+<dt>BLURB<dd>{blurb}
+<dt>HELP<dd>{help}
+<dt>MENUPATH<dd>{location}
+<dt>INPUT ARGUMENTS<dd>
+<table><tr align=left><th>NAME<th>TYPE<th>DESCRIPTION
+%params%
+</table>
+<dt>RETURN VALUES<dd>
+<table><tr align=left><th>NAME<th>TYPE<th>DESCRIPTION
+%returns%
+</table>
+<dt>AUTHOR<dd>{author}<br>(c){date} {copyright}
+</dl>
